@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+     <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pratibha's Art</title>
+</head>
+<body>
+    <div class="heading">
+      <h1>Pratibha's Art</h1>
+    </div>
+
+      <!-- Navbar -->
+    <div class="nav">
+        <nav>
+            <ul class="navbar">
+            <li><a href="index.html">Home </a></li>
+            <li><a href="menu.html">Menu </a></li>
+            <li><a href="contact.html">Contact Us </a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Product List -->
+  <div class="products">
+    <div class="product">
+      <h3>Product 1</h3>
+      <p>Price: Rs.10</p>
+      <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h3>Product 2</h3>
+      <p>Price: Rs.20</p>
+      <button onclick="addToCart('Product 2', 20)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h3>Product 2</h3>
+      <p>Price: Rs.20</p>
+      <button onclick="addToCart('Product 2', 20)">Add to Cart</button>
+    </div>
+  </div>
+<!-- Shopping Cart -->
+  <h2>Shopping Cart</h2>
+  <ul id="cart"></ul>
+  <p><strong>Total: Rs.<span id="total">0</span></strong></p>
+
+  <!-- footer -->
+   <footer>
+    <p>&copy; Pratibha's Art, 2025 All right reserved</p>
+   </footer>
+
+  <script src="script.js"></script>
+    
+</body>
+</html>
